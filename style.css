@@ -112,10 +112,6 @@ section .container--produtos{
     flex-wrap: wrap;
 }
 
-section .container--produtos .item{
-    height: 36rem;
-    width:26.9rem;
-}
 
 .linha--cerveja{
     border: .3rem solid black;
@@ -125,9 +121,51 @@ section .container--produtos .item{
 .container--cervejas{
     display: flex;
     flex-direction: column;
-    width: 134rem;
+    width: 120rem;
     }
 
-.filtro--cerveja--completo{
-    display: flex;
+    .filtro--cerveja--completo{
+        display: flex;
+    }
+    
+    .item p.goro{
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: 'Lato';
+    line-height: 2.16rem;
+    color: black;
+}
+
+.item p.cerva{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lato';
+    line-height: 1.8rem;
+    color: #8B8B8B;
+}
+
+.item p.valor{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Lato';
+    line-height: 2.4rem;
+    color: black;
+}
+
+.img--cerveja{
+    position: relative;
+    display: inline-block;
+}
+
+.sacola{
+    position: absolute;
+    top: 132%;
+    right: 4%;
+    background-color: white;
+    border-radius: 5rem;
+}
+
+section .container--produtos .item{
+    height: 36rem;
+    width:26.9rem;
 }
